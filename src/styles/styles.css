@@ -6,3 +6,45 @@
 .icon {
   width: 23px;
 }
+
+.card {
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card-info {
+  display: flex;
+  gap: 11rem;
+}
+
+.card-icon {
+  width: 20px;
+}
+
+.followers {
+  background: wheat;
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-direction: column;
+  width: 300px;
+  margin: 10px;
+}
+.followers-container {
+  background: pink;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 430px;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
