@@ -1,8 +1,14 @@
 import React from 'react'
-
+import CardInfo from './Card'
+import Followers from './Followers'
 const User = () => {
   return (
-    <div>User</div>
+    <>
+      <div className='main'>
+      <CardInfo/>
+      <Followers/>
+      </div>
+    </>
   )
 }
 
