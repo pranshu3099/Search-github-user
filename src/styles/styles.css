@@ -24,7 +24,7 @@
 }
 
 .followers {
-  background: wheat;
+  background-color: white;
   display: flex;
   height: 20vh;
   align-items: center;
@@ -35,13 +35,14 @@
   margin: 10px;
 }
 .followers-container {
-  background: pink;
+  background: white;
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 430px;
   height: 70vh;
   overflow-y: scroll;
+  margin: 16px;
 }
 
 .main {
